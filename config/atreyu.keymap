@@ -124,7 +124,7 @@
    &none    &kp F9     &kp F10    &kp F11    &kp F12     &bt BT_CLR                &bt BT_SEL 4  &kp C_BRI_DEC  &trans   &kp C_VOL_DN &kp C_PREV &none
         //╰──────────┴──────────┴──────────┼───────────┼────────────┤             ├────────────┼────────────┼──────────┴───────────┴──────────╯
         //                                 │           │            │             │            │            │ 
-   &none &none &none                            &trans     &trans    &none &none    &trans     &trans &none &none &none  
+   &none &none &none                            &trans  &kp LC(LG(Q)) &none &none  &trans       &trans       &none &none &none 
         //                                 ╰───────────┴────────────╯             ╰────────────┴────────────╯
             >;
         };
