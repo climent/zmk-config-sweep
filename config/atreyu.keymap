@@ -71,24 +71,6 @@
             >;
         };
 
-        windows_layer {
-            bindings = <
-   &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮             ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│  Q       │  W       │  E       │  R       │  T       │             │  Y       │  U       │  I       │  O       │  P       │
-   &none    &kp Q      &kp W      &kp E      &kp R      &kp T                    &kp Y      &kp U      &kp I      &kp O      &kp P      &none
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤             ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  A       │  S       │  D       │  F       │  G       │             │  H       │  J       │  K       │  L       │BACKSPACE │
-   &none    &kp A    WHRML(S,         D,         F)     &kp G                    &kp H      WHRMR(J,        K,         L)   &kp BSPC    &none
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤             ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │             │  N       │  M       │ , <      │ . >      │ ENTER    │
-   &none    &kp Z      &kp X      &kp C      &kp V      &kp B                    &kp N      &kp M      &kp COMMA  &kp DOT    &kp ENTER  &none
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤             ├──────────┼──────────┼──────────┴──────────┴──────────╯
-   &none &none &none                       &lt LEF TAB  &kp LSHIFT &none &none  &kp SPACE  &lt RIG TAB  &none &none &none
-        //                                 ╰──────────┴──────────╯             ╰──────────┴──────────╯
-            >;
-        };
-
         right_layer {
             bindings = <
    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
