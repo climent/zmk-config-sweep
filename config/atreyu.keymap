@@ -79,10 +79,10 @@
    &none    &kp N1    &kp N2     &kp N3     &kp N4     &kp N5                    &kp N6     &kp N7     &kp N8     &kp N9      &kp N0    &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤             ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ DELETE   │ CapsLock │ PrintSc  │  INSERT  │          |             |          │ LEFT     │ DOWN     │ UP       │ RIGHT    │
-   &none    &kp DEL   &kp CAPS   &kp PSCRN  &kp INS     &trans                    &trans    &kp LARW   &kp DARW   &kp UARW   &kp RARW   &none
+   &none    &kp DEL   &kp CAPS   &kp PSCRN  &kp INS     &trans                   &kp PG_UP  &kp HOME   &kp UARW   &kp END    &trans     &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤             ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │             │          │ HOME     │ PAGE DN  │ PAGE UP  │ END      │
-   &none    &trans    &trans     &trans     &trans      &trans                     &trans     &kp HOME   &kp PG_DN  &kp PG_UP  &kp END  &none
+   &none    &trans    &trans     &trans     &trans      &trans                   &kp PG_DN  &kp LARW   &kp DARW   &kp RARW   &trans   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤             ├──────────┼──────────┼──────────┴──────────┴──────────╯
    &none &none &none                         &trans     &kp ESC   &none &none    &trans     &trans
         //                                 ╰──────────┴──────────╯             ╰──────────┴──────────╯
